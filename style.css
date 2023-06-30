@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border: 35px solid red;
+  justify-content: center;
+  margin: 100px;
+  display: flex;
+  width: 650px;
+}
+
+.container {
+  border: 30px solid yellow;
+  width: 590px;
+  height: 200px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#btn {
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: black;
+  color: yellow;
+}
